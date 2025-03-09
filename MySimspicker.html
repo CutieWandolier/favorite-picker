@@ -234,19 +234,9 @@ button.disabled:hover {
 'use strict';
 
 var items = [
-    {id: 'abigail', name: 'Abigail', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FAbigail&psig=AOvVaw11J7Ev2HjmcYh5z6ZiKxK4&ust=1741583743444000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCDv5ef_IsDFQAAAAAdAAAAABAE'},
-    {id: 'Alexa', name: 'Alexa Lexington', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FAlexa_Lexington&psig=AOvVaw3b-CLcBa-x2D4TvXfTWtMN&ust=1741584924948000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDe68mj_IsDFQAAAAAdAAAAABAE'},
-    {id: 'amelia', name: 'Amelia', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FAmelia&psig=AOvVaw0vEKpN7eyCwKrWIKdgh_rX&ust=1741584964845000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjojdyj_IsDFQAAAAAdAAAAABAI'}
-    {id: 'Annie', name: 'Annie Radd', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FAnnie_Radd_%2528MySims%2529&psig=AOvVaw0PS0GtFj053PmSY9d4WI0V&ust=1741585061132000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDf34ik_IsDFQAAAAAdAAAAABAE'},
-    {id: 'Bean', name: 'Bean Bradley', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FBean_Bradley_%2528MySims%2529&psig=AOvVaw1iVPQBTms3ALAiYJeLakUz&ust=1741586138196000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjOuIqo_IsDFQAAAAAdAAAAABAE'},
-    {id: 'beebee', name: 'BeeBee', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FBeebee&psig=AOvVaw0l9HAWIMu8Xbs5I___2Vrj&ust=1741586174634000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDU9Zyo_IsDFQAAAAAdAAAAABAE'},
-    {id: 'billy', name: 'Billy', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysimsfanon.fandom.com%2Fwiki%2FBilly_%2528MySims_Safari%2529&psig=AOvVaw26Rx1xAQ-Ig712Js-L76VZ&ust=1741586210928000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjeg62o_IsDFQAAAAAdAAAAABAE'} 
-    {id: 'blaine', name: 'Blaine', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FBlaine&psig=AOvVaw0CMhbmIJr4CIuRMUAJkte5&ust=1741586593736000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDry-Op_IsDFQAAAAAdAAAAABAE'},
-    {id: 'brandi', name: 'Brandi', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FBrandi&psig=AOvVaw0-GIVhV4TqhAH5TSSWyPrH&ust=1741586654467000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKD-j4iq_IsDFQAAAAAdAAAAABAE'},
-    {id: 'brendan', name: 'Brenden', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FBrendan_%2528MySims%2529&psig=AOvVaw3EiDRun_Jf-4DMneZT7yNt&ust=1741586759677000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMih7rKq_IsDFQAAAAAdAAAAABAE'}
-        {id: 'buddy', name: 'Buddy', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FBuddy_%2528MySims_Kingdom%2529&psig=AOvVaw0f3SM5-4kG7URxdT_xWbwj&ust=1741587586314000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDA8byt_IsDFQAAAAAdAAAAABAE'},
-    {id: 'cassandra', name: 'Cassandra', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FCassandra&psig=AOvVaw2ewKDx_slps1FKbtq7ycTF&ust=1741587613245000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiT5smt_IsDFQAAAAAdAAAAABAE'},
-    {id: 'ikara', name: 'Chancellor Ikara', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fmysims.fandom.com%2Fwiki%2FChancellor_Ikara_%2528MySims%2529&psig=AOvVaw02zAqkFdKhUTJv2Hit8b1i&ust=1741587645462000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjjkdmt_IsDFQAAAAAdAAAAABAE'}
+    {id: 'phoenix', name: 'Phoenix Wright'},
+    {id: 'edgeworth', name: 'Miles Edgeworth'},
+    {id: 'maya', name: 'Maya Fey'}
     ];
 
     
